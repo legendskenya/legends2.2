@@ -1,2 +1,12 @@
 //activating all collapsing items
 $('.collapse').collapse()
+
+//Typing animation using typed.js
+$(".element").typed({
+    strings: ["<a>CREATORS</a>", "<a><code>ENGINEERS</code></a>", "<a>DESIGNERS</a>", "AWESOME!!",  "LEGENDS."],
+    contentType: 'html',
+    typeSpeed: 100,
+    backSpeed: 62,
+    backDelay: 3500,
+    loop: true,
+});

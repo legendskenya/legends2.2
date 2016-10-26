@@ -19,6 +19,12 @@
     src: url('../assets/fonts/bandy.TTF') format('truetype');
     font-weight: bold;
 }
+html h2{
+    font-family: 'Julius Sans One', sans-serif;
+}
+html a{
+    font-family: 'antipasto';
+}
 /*Upper space*/
 #upper-space{
     width: 100%;
@@ -31,6 +37,8 @@ html, body, #landing{
     background-size: cover;
     position: relative;
     z-index: 1;
+    text-align: center;
+    color: #fff;
 }
 .overlay{
     width: 100%;
@@ -47,7 +55,6 @@ nav{
     z-index: 6;
 }
 #navigation-bar{
-    font-family: 'antipasto';
     font-size: 1.2em;
 }
 #navigation-bar li a{
@@ -56,4 +63,13 @@ nav{
 #navigation-bar li a:hover{
     color: #f29100;
     transition: ease .4s;
+}
+#landing h2{
+    font-weight: bold;
+    font-size: 5em;
+    padding-top: 1em;
+}
+#landing h4{
+    font-family: 'antipasto';
+    font-size: 2em;
 }
