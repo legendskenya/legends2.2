@@ -114,20 +114,21 @@ nav{
 /* end of button styling*/
 #brief-info{
     width: 100% !important;
-    background: #fff;
+    background: #f7f7f7;
     font-family: 'antipasto', serif;
-    font-size: 1.7em;
     padding: 1.3em 0 0 0;
+    text-align: center;
+}
+#brief-info p{
+    font-size: 1.7em;
 }
 .more-info{
     width: 100%;
-    height: 6em;
+    height: 8em;
     background: #f29100;
-    text-align: center;
-    margin: 1.3em 0 0 0;
 }
 .more-info h3{
-    padding: 1em 0 0 0;
+    padding: 1em 0 1em 0;
     font-size: 1.7em;
 }
 html, body, #chair{
@@ -150,4 +151,45 @@ html, body, #chair{
     font-size: 1.7em;
     font-weight: bold;
 }
-
+#services{
+    width: 100%;
+    background: #f7f7f7;
+    font-family: 'antipasto', serif;
+    text-align: center;
+}
+.three-column{
+    height: 17em;
+}
+.three-column:hover{
+    cursor: default;
+    background: #f29100;
+    color: #fff;
+    transition: ease .4s;
+}
+.real-footer{
+    width: 100%;
+    font-family: 'antipasto', sans-serif;
+    background: #333333;
+    color: #f7f7f7;
+    text-align: center;
+}
+.two-column{
+    height: 20em;
+    padding: 2em;
+}
+.real-footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.real-footer li{
+    display: inline;
+}
+.real-footer a{
+    margin: 1em;
+    color: #fff;
+}
+.real-footer a:hover{
+    color: #f29100;
+    transition: .4s ease;
+}
