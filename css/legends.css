@@ -73,3 +73,38 @@ nav{
     font-family: 'antipasto';
     font-size: 2em;
 }
+/*
+* Button styling
+*/
+.btn-large{
+    position: relative;
+    width: 205px;
+    height: 60px;
+    background-color: transparent;
+    font-family: 'antipasto';
+    border: 3px;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 1.5em;
+    margin: 1.2em;
+}
+.btn-large:hover{
+    background-color: #f29100;
+    color: #fff;
+    transition: ease .6s;
+}
+.btn-large::after{
+     position: absolute;
+      content: '';
+      top:0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: #f29100;
+      transform-origin:left;
+      transition:width 0.4s ease;
+      z-index:-1;
+}
+.btn-large:hover::after{
+    width: 100%;
+}

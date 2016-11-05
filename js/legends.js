@@ -1,12 +1,16 @@
-//activating all collapsing items
-$('.collapse').collapse()
+$(document).ready(function(){
 
-//Typing animation using typed.js
-$(".element").typed({
-    strings: ["<a>CREATORS</a>", "<a><code>ENGINEERS</code></a>", "<a>DESIGNERS</a>", "AWESOME!!",  "LEGENDS."],
-    contentType: 'html',
-    typeSpeed: 100,
-    backSpeed: 62,
-    backDelay: 3500,
-    loop: true,
+    //activating all collapsing items
+    $('.collapse').collapse();
+
+    //Typing animation using typed.js
+    $(".element").typed({
+        strings: ["<a>CREATORS</a>", "<a>ENGINEERS</a>", "<a>DESIGNERS</a>", "AWESOME",  "LEGENDS."],
+        contentType: 'html',
+        typeSpeed: 100,
+        backSpeed: 62,
+        backDelay: 3500,
+        loop: true,
+        showCursor: true
+    });
 });
