@@ -19,6 +19,9 @@
     src: url('../assets/fonts/bandy.TTF') format('truetype');
     font-weight: bold;
 }
+/*
+* LANDING PAGE STYLING
+*/
 html{
     overflow-x: hidden;
 }
@@ -43,7 +46,7 @@ html, body, #landing{
     text-align: center;
     color: #fff;
 }
-.overlay{
+.overlay-landing{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -192,4 +195,45 @@ html, body, #chair{
 .real-footer a:hover{
     color: #f29100;
     transition: .4s ease;
+}
+/*
+* ABOUT US PAGE STYLING
+*/
+#about-us{
+    width: 100%;
+    height: 70%;
+    background: url(../assets/images/team-gears.jpg) no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+.overlay-others{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+.tagline{
+    font-weight: bold;
+    font-size: 5em;
+    padding-top: 1em;
+    font-family: 'antipasto';
+    letter-spacing: 1px;
+}
+section{
+    width: 100%;
+    height: 20em;
+    background: #f7f7f7;
+    font-size: 1.5em;
+    font-family: 'antipasto';
+    letter-spacing: 1px;
+    padding: 2.5em 0 3em 0;
 }
