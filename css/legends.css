@@ -139,11 +139,9 @@ html, body, #chair{
     height: 100%;
     background: url(../assets/images/mbele_blur.jpg) no-repeat center center fixed;
     background-size: cover;
-/*
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-*/
     text-align: left;
 }
 #chair blockquote{
@@ -177,7 +175,6 @@ html, body, #chair{
     background: #333333;
     color: #f7f7f7;
     text-align: center;
-    position: fixed;
     bottom: 0;
 }
 .two-column{
@@ -272,3 +269,58 @@ html, body, #chair{
     margin: 0 5px 0 5px;
     text-align: left;
 }
+/*About us Page styling ends*/
+/*
+* ALPHA TECH PAGE STYLING
+*/
+.top-section{
+    width: 100%;
+    height: 70%;
+    color: #fff;
+    font-family: 'Julius Sans One', serif;
+}
+
+#alpha-tech{
+    height: 100%;
+    background: url(../assets/images/legends_bg_test.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#alpha-tech h1{
+    font-size: 5em;
+}
+.about-alphatech{
+    width: 100%;
+    height: 60%;
+    background: #f29100;
+    color: #fff;
+    padding: 2em;
+    font-size: 1.5em;
+    font-family: 'antipasto';
+    letter-spacing: 1px;
+}
+.services-alphateh{
+    width: 100%;
+    height: 60%;
+    color: #fff;
+    background: url(../assets/images/laptopandtablet.jpg) no-repeat fixed;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0 auto;
+}
+.mobile-web{
+    margin: 0 auto;
+    padding: 5em 0 5em 0;
+}
+.mobile-web:hover{
+    background: rgba(242,145,0, 0.6);
+    transition: ease .4s;
+
+}
+
+
+
