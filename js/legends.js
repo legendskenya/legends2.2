@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     //Typing animation using typed.js
     $(".element").typed({
-        strings: ["<a>CREATORS</a>", "<a>ENGINEERS</a>", "<a>DESIGNERS</a>", "AWESOME",  "LEGENDS."],
+        strings: ["<a>CREATORS</a>", "<a>ENGINEERS</a>", "<a>DESIGNERS</a>", "LEGENDS."],
         contentType: 'html',
         typeSpeed: 100,
         backSpeed: 62,
